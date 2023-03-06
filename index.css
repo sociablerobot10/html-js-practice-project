@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    
+} 
+header {
+   
+ height: 130px;
+ background-image: url('images/header.jpg');
+ background-size: cover;;
+ background-position: 25% 75%;
+ text-align: center;
+ border: 4px solid red;
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+
+}
+
+#name {
+width: 169.28px;
+height: 24px;
+left: 46.07px;
+font-family: 'Smythe';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+#tagline {
+ margin-top:39px;
+ width: 275.46px;
+ height: 10px;
+ font-family: 'Smythe';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18.4216px;
+ position:absolute; 
+ left:-15px;
+/* or 62% */
+ color: #FFFFFF;
+}
+
+
+#emoji {
+width: 53px;
+font-size: 38.72px;
+height: 140px;
+margin-top: 20px;
+margin-left: 10px;
+
+
+
+
+}
+
+
+#ingredients {
+
+
+font-family: 'Smythe';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+
+
+/* identical to box height, or 150% */
+
+
+
+border: 10px solid yellow;
+}
+
+#item {
+    bottom: 90px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Smythe';
+    font-style: normal;
+    border: 10px blue solid;
+  
+    
+}
+
+#item-name {
+    border: 5px solid orange;
+    font-weight: 400;
+    font-size: 28px;  
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid green;
+}
+
+#left-side-emoji {
+    border: 6px solid grey;
+    font-size:2.5rem;
+}
+
+#right-side {
+   border: 2px solid purple;
+   width: 100%;
+   padding-bottom: 50px;  
+    
+}
+
+.price {
+   font-weight: 400;
+   font-size: 20px;
+}
