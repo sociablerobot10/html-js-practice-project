@@ -12,8 +12,10 @@ for(let item of menuArray) {
                     ${item.emoji}
                 </span>
                  <section id="right-side">
+                
                 <span id="item-name">
                     ${item.name}</span>
+                    
                 <div id="ingredients">`
     
     for(let food of item.ingredients){
@@ -32,13 +34,14 @@ for(let item of menuArray) {
        html += `${food}, `
         }
           html += `</div>`
-         html += `<section class="price">$${item.price}</section></section></section>`
+         html += `<section class="price">$${item.price}</section></section><img id="order-icon" src = 'images/add-icon'></section><hr></hr>`
     }
     
    menu.innerHTML += html;
     
     
 console.log(menu.innerHTML)
+
 
 
 
